@@ -57,6 +57,7 @@ def knn(x):
 #'''
 for i in range(706,800):
     res = knn(entitys[i])
+    print(res)
     with open('aaa.txt','a')as f1:
         for i in range(len(res)):
             for j in res[i].values():
